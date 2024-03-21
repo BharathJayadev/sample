@@ -8,4 +8,3 @@ factorial.o:factorial.c
         gcc -c factorial.c
 reverse.o:reverse.c
         gcc -c reverse.c
-        
