@@ -1,5 +1,5 @@
 ABC.exe:main.o factorial.o reverse.o biggest2.o
-  gcc -o ABC.exe main.o factorial.o biggest2.o reverse.o
+  gcc -o ABC.exe main.o factorial.o reverse.o biggest2.o
 main.o:main.c
   gcc -c main.c
 factorial.o:factorial.c
