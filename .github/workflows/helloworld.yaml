@@ -1,8 +1,8 @@
-- name: hello world
-    on:
-      push:
-        branches:
-          - main
+name: hello world
+on:
+  push:
+    branches:
+      - main
 jobs: 
   first-hello-world-job:
     runs-on: ubuntu:latest
